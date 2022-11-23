@@ -40,14 +40,24 @@ q {
 
 .header-body {
     color: whitesmoke;
+    margin-left: 5%;
     margin-bottom: 10%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+.header-button{
+    width: 10em;
+    height: 2em;
+    border: 1px solid #3882f6;
+    border-radius: 8px;
+    background-color: #3882f6;
+}
+
 
 .coffee-img {
+    margin-right: 5%;
     height: auto; 
     width: auto; 
     max-width: 800px; 
@@ -66,9 +76,11 @@ q {
 
 
 .info-boxes{
+    padding: 5em 5em 10em 5em;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .box{
@@ -77,8 +89,8 @@ q {
     display: inline-block;
     /* To horizontally center images and caption */
     text-align: center;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: medium solid blue;
     border-radius: 15px;
     background-color: aliceblue;
@@ -103,6 +115,7 @@ q {
     color: #1f2937;
     font-weight: bold;
     font-style: normal;
+    font-size: 20px;
 }
 
 .newsletter-section{
@@ -114,12 +127,30 @@ q {
 
 .newsletter{
     width:500px;
+    height: 30px;
     border: 1px solid #3882f6;
     border-radius: 15px;
     background-color: #3882f6;
     padding: 50px;
-    color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.newsletter-text , .newsletter-button{
+    color: white;
     text-align: center;
+}
+
+.newsletter-body-text{
+    font-size: small;
+}
+
+.newsletter-button{
+    width: 10em;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #3882f6;
 }
 
 .footer {
